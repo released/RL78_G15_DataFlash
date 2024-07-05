@@ -16,12 +16,15 @@ https://www.renesas.com/us/en/document/apn/rl78g15-group-renesas-flash-sample-pr
 3. modify setting , base on application note 
 
 if MCU is 8K flash
+
 .text,.data,.sdata,.RLIB,.SLIB,.textf,.constf/000D8,.const/01D00,.dataR,.bss/FFB00,.sdataR,.sbss/FFE20
 
 if MCU is 16K flash
+
 .text,.data,.sdata,.RLIB,.SLIB,.textf,.constf/000D8,.const/03D00,.dataR,.bss/FFB00,.sdataR,.sbss/FFE20
 
 if MCU is 32K flash
+
 .text,.data,.sdata,.RLIB,.SLIB,.textf,.constf/000D8,.const/07D00,.dataR,.bss/FFB00,.sdataR,.sbss/FFE20
 
 
